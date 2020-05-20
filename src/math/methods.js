@@ -31,7 +31,7 @@ methods.natural = new SequenceMethod({
     }
   }
 });
-methods.power2 = new SequenceMethod({
+methods.power = new SequenceMethod({
   name: 'power',
   matcher: seq => {
     let power;
@@ -41,7 +41,7 @@ methods.power2 = new SequenceMethod({
         
         let last = array[index - 1];
         if(power === undefined) { power = n / last; }
-        return n = last * power;
+        return n === last * power;
       }),
       predictor: n => n * power
     }
