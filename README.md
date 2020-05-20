@@ -1,4 +1,4 @@
-# oeis-sequence-predictor
+# sequence-predictor
 Integer sequence prediction from OEIS database.
 
 Thoughts:
