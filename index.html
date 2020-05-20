@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" type="text/css" href="public/main.bundle.css">
+</head>
+<body>
+    <div id="root">
+      <h3>Integer Sequence Prediction</h3>
+      <form onsubmit="return false;">
+        <input id="inputSequence" type="text" 
+          placeholder="Enter interger sequence with space separated." />
+        <button id="btnPredict" type="submit">Predict</button>
+      </form>
+      <div>
+        <div>
+          <label for="resultQuery">Input: </label>
+          <span id="resultQuery"></span>
+        </div>
+        <div>
+          <label for="resultPrediction">Prediction: </label>
+          <span id="resultPrediction"></span>
+        </div>
+      </div>
+    </div>
+    <script src="public/main.bundle.js"></script>
+</body>
+</html>
